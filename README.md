@@ -19,7 +19,7 @@ Image Detection
 # Deskripsi 
 Dataset di ambil dari website kaggle https://www.kaggle.com/datasets/muratkokludataset/pistachio-image-dataset 
 
-Dataset "Pistachio Image Dataset" ini berisi gambar-gambar pistachio yang digunakan untuk tujuan klasifikasi. Dataset ini dapat digunakan untuk pengenalan dan klasifikasi jenis pistachio berdasarkan gambar. Terdapat dua jenis pistachio dalam dataset ini: Kirmizi dan Siirt. Masing-masing gambar dalam dataset ini memiliki label yang menunjukkan jenis pistachio tersebut.
+Dataset "Pistachio Image Dataset" ini berisi gambar-gambar pistachio yang digunakan untuk tujuan klasifikasi. Dataset ini dapat digunakan untuk pengenalan dan klasifikasi jenis pistachio berdasarkan gambar. Terdapat dua jenis pistachio dalam dataset ini: Kirmizi dan Siirt. Masing-masing gambar dalam dataset ini memiliki label yang menunjukkan jenis pistachio tersebut. Dataset ini memiliki total 2148 gambar, masing-masing varietas memiliki 1074 gambar. Setiap gambar memiliki resolusi 100x100 piksel dalam format RGB. Dataset ini dirancang untuk tugas klasifikasi citra, membantu model dalam membedakan antara kedua varietas pistachio berdasarkan gambar. Dataset ini dapat digunakan dalam berbagai aplikasi computer vision dan machine learning untuk pengenalan objek dan klasifikasi.
 
 - Atribut Dataset
 Dataset ini terdiri dari beberapa atribut berikut:
