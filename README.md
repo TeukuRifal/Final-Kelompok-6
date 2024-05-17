@@ -59,3 +59,21 @@ Dataset ini digunakan untuk klasifikasi spesies mamalia. Ini berisi informasi te
     
 18. type: Kelas atau tipe mamalia (Integer, dengan nilai yang menunjukkan kelas tertentu).
 
+# Instruksi Penerapan
+1. Persiapan Data
+- Mount Google Drive
+- Tentukan Path Dataset
+- Tentukan Label/Kelas
+- Buat ImageDataGenerator untuk Augmentasi dan Normalisasi
+- Memuat Data Pelatihan dan Validasi
+2. Pengembangan dan Kompilasi Model
+- Inisialisasi Model ResNet50:
+- Kompilasi Model
+3. Pelatihan Model
+- Pelatihan Model dengan Callback
+4. Evaluasi dan Visualisasi
+- Visualisasi Distribusi Kelas
+- Visualisasi Loss dan Akurasi
+5. Penyimpanan Model
+- Simpan Model Terlatih
+
