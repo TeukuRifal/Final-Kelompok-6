@@ -72,8 +72,8 @@ Penyimpanan Model
 Langkah-langkah pembuatan Web dan Deploy
 
 1. Membuat Virtual Environment
-   - Menggunakan perintah python -m venv venv untuk membuat virtual environment.
-   - Virtual environment kemudian diaktifkan dengan perintah source venv/bin/activate (untuk sistem operasi berbasis Linux).
+   - Menggunakan perintah virtualenv projek untuk membuat virtual environment.
+   - Virtual environment kemudian diaktifkan dengan perintah projek\scripts\activated (untuk sistem operasi berbasis Windows).
 
 2. Instalasi Flask
    - Flask diinstal ke dalam virtual environment menggunakan perintah pip install Flask.
@@ -83,7 +83,7 @@ Langkah-langkah pembuatan Web dan Deploy
    - Untuk menyimpan file-file HTML yang diperlukan oleh aplikasi, kami membuat folder bernama templates.
 
 4. Menjalankan Aplikasi
-   - Aplikasi Flask dijalankan dengan menggunakan perintah flask run.
+   - Aplikasi Flask dijalankan dengan menggunakan perintah python app.py.
 
 5. Integrasi dengan HTML
    - File-file HTML yang dibuat ditempatkan dalam folder templates.
@@ -91,7 +91,7 @@ Langkah-langkah pembuatan Web dan Deploy
 
 6. Hasil Deploy
    - Setelah menjalankan flask run, halaman web berhasil ditampilkan di browser, menunjukkan konten dari file HTML yang sudah dibuat.
-
+     
 # Instalasi
 
 1. Clone Repository
