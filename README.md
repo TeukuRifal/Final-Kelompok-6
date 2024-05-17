@@ -14,50 +14,30 @@ Nama Anggota Kelompok :
 # Judul Projek 
 Image Detection
 
-# Klasifikasi Gambar ( Mamalia)
+# Klasifikasi Gambar ( Pistachio)
 
 # Deskripsi 
-Dataset di ambil dari website kaggle : https://www.kaggle.com/datasets/anirudhg15/mammals-classification
+Dataset di ambil dari website kaggle https://www.kaggle.com/datasets/muratkokludataset/pistachio-image-dataset 
 
-Dataset ini digunakan untuk klasifikasi spesies mamalia. Ini berisi informasi tentang berbagai karakteristik fisik dan perilaku dari berbagai spesies mamalia. Data ini dapat digunakan untuk membangun model prediktif yang mampu mengklasifikasikan spesies berdasarkan fitur yang diberikan.
+Dataset "Pistachio Image Dataset" ini berisi gambar-gambar pistachio yang digunakan untuk tujuan klasifikasi. Dataset ini dapat digunakan untuk pengenalan dan klasifikasi jenis pistachio berdasarkan gambar. Terdapat dua jenis pistachio dalam dataset ini: Kirmizi dan Siirt. Masing-masing gambar dalam dataset ini memiliki label yang menunjukkan jenis pistachio tersebut.
 
-- Fitur-Fitur dalam Dataset
-  Dataset ini memiliki beberapa fitur yang masing-masing merepresentasikan karakteristik tertentu dari mamalia. Berikut adalah penjelasan dari setiap fitur yang ada dalam dataset ini:
-1. animal_name: Nama spesies mamalia.
-   
-2. hair: Indikator apakah mamalia memiliki rambut atau tidak (Boolean: 1 untuk ya, 0 untuk tidak).
-   
-3. feathers: Indikator apakah mamalia memiliki bulu atau tidak (Boolean: 1 untuk ya, 0 untuk tidak).
-   
-4. eggs: Indikator apakah mamalia bertelur atau tidak (Boolean: 1 untuk ya, 0 untuk tidak).
-   
-5. milk: Indikator apakah mamalia menyusui atau tidak (Boolean: 1 untuk ya, 0 untuk tidak).
-    
-6. airborne: Indikator apakah mamalia bisa terbang atau tidak (Boolean: 1 untuk ya, 0 untuk tidak).
-    
-7. aquatic: Indikator apakah mamalia hidup di air atau tidak (Boolean: 1 untuk ya, 0 untuk tidak).
- 
-8. predator: Indikator apakah mamalia adalah predator atau tidak (Boolean: 1 untuk ya, 0 untuk tidak).
-    
-9. toothed: Indikator apakah mamalia memiliki gigi atau tidak (Boolean: 1 untuk ya, 0 untuk tidak).
-    
-10. backbone: Indikator apakah mamalia memiliki tulang belakang atau tidak (Boolean: 1 untuk ya, 0 untuk tidak).
-    
-11. breathes: Indikator apakah mamalia bernapas dengan paru-paru atau tidak (Boolean: 1 untuk ya, 0 untuk tidak).
+- Atribut Dataset
+Dataset ini terdiri dari beberapa atribut berikut:
+
+1. Gambar Pistachio:
+- Setiap instance dalam dataset ini merupakan gambar dari pistachio.
+- Gambar tersebut berformat RGB dengan resolusi yang seragam.
   
-12. venomous: Indikator apakah mamalia beracun atau tidak (Boolean: 1 untuk ya, 0 untuk tidak).
-    
-13. fins: Indikator apakah mamalia memiliki sirip atau tidak (Boolean: 1 untuk ya, 0 untuk tidak).
-    
-14. legs: Jumlah kaki yang dimiliki mamalia (Integer).
-    
-15. tail: Indikator apakah mamalia memiliki ekor atau tidak (Boolean: 1 untuk ya, 0 untuk tidak).
-    
-16. domestic: Indikator apakah mamalia adalah hewan peliharaan atau tidak (Boolean: 1 untuk ya, 0 untuk tidak).
-    
-17. catsize: Indikator apakah ukuran mamalia sebanding dengan ukuran kucing atau tidak (Boolean: 1 untuk ya, 0 untuk tidak).
-    
-18. type: Kelas atau tipe mamalia (Integer, dengan nilai yang menunjukkan kelas tertentu).
+2. Label Klasifikasi:
+- Kirmizi: Label untuk jenis pistachio Kirmizi.
+- Siirt: Label untuk jenis pistachio Siirt.
+  
+3. Detail Teknis
+- Ukuran Dataset: Dataset ini berisi 2148 gambar pistachio.
+  
+4. Pembagian Kelas:
+- Kirmizi: 1122 gambar
+- Siirt: 1026 gambar
 
 # Instruksi Penerapan
 1. Persiapan Data
