@@ -40,20 +40,27 @@ Dataset ini terdiri dari beberapa atribut berikut:
 - Siirt: 1026 gambar
 
 # Instruksi Penerapan
-1. Persiapan Data
+
+Instruksi penerapan adalah petunjuk atau panduan yang memberikan detail langkah demi langkah tentang bagaimana suatu tugas, prosedur, atau kegiatan tertentu harus dilakukan.
+Adapun instruksi penerapan pada projek ini adalah sebagai berikut:
+1. Pengumpulan Data
+2. Modelling
+Persiapan Data
 - Mount Google Drive
 - Tentukan Path Dataset
 - Tentukan Label/Kelas
-- Buat ImageDataGenerator untuk Augmentasi dan Normalisasi
+- Membuat ImageDataGenerator untuk proses prepocessing (Augmentasi dan Normalisasi) 
 - Memuat Data Pelatihan dan Validasi
-2. Pengembangan dan Kompilasi Model
+Pengembangan dan Kompilasi Model
 - Inisialisasi Model ResNet50:
 - Kompilasi Model
-3. Pelatihan Model
+Pelatihan Model
 - Pelatihan Model dengan Callback
-4. Evaluasi dan Visualisasi
+Evaluasi dan Visualisasi
 - Visualisasi Distribusi Kelas
 - Visualisasi Loss dan Akurasi
-5. Penyimpanan Model
+Penyimpanan Model
 - Simpan Model Terlatih
+3. Pembuatan Web
+4. Deployment
 
