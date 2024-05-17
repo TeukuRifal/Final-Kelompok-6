@@ -1,0 +1,170 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+  margin: 0;
+  background-image: url("/static/image/bg-home.jpg");
+  background-size: cover;
+}
+
+.nav-button{
+  background-color: #C8AF96;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.nav-button:hover {
+  opacity: 0.8;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #C8AF96;
+  padding: 15px;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  padding: 8px 16px;
+  font-weight: bold;
+  align-items: center;
+}
+
+.navbar a:hover {
+  background-color: #0056b3;
+  border-radius: 5px;
+}
+
+.container {
+  text-align: center;
+  background: #f2ece6;
+  padding: 60px; /* Adjusted padding for better spacing */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 1020px; /* Set a fixed width */
+  max-width: 100%; /* Ensure it doesn't overflow on smaller screens */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  margin-top: 100px; /* Add margin to avoid overlap with navbar */
+}
+
+.box {
+  background: #fafafa;
+  padding: 40px;
+  border: 2px dashed #ccc; /* Border property */
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 100%;
+  box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+#uploadForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Center the form content */
+  height: 300px; /* Fixed height for centering purpose */
+  position: relative; /* Menjadikan #uploadBox sebagai konteks posisi */
+
+}
+
+#uploadForm input[type="file"] {
+  margin-bottom: 10px;
+  display: none; /* Initially hidden */
+}
+
+#uploadForm.show-input input[type="file"] {
+  display: block; /* Show input when needed */
+}
+
+#preview, #resultBox {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box; /* Ensure padding and border are included in height */
+  justify-content: center; /* Center content vertically */
+}
+
+#preview img, #resultBox img {
+  max-width: 100%;
+  max-height: 100%; /* Ensure the image fits within the container */
+  height: auto;
+  border-radius: 10px;
+}
+
+#preview {
+  height: 300px; /* Fixed height for the preview area */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#resultBox {
+  padding: 1px;
+  border: 2px dashed #ccc; /* Border property */
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Add space between buttons */
+  margin-top: 10px;
+}
+
+#uploadForm button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+  min-width: 100px; /* Ensure buttons have a minimum width */
+  text-align: center;
+}
+
+#uploadForm button#clearButton {
+  background-color: #dc3545;
+}
+
+#uploadForm button:hover {
+  opacity: 0.8;
+}
+
+
+.back-button {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #C8AF96;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  opacity: 0.8;
+}
+
+
+
