@@ -96,7 +96,7 @@ Langkah-langkah pembuatan Web dan Deploy
 
 1. Clone Repository
    ```bash
-   https://github.com/TeukuRifal/Final-Kelompok-6.git
+   git clone https://github.com/TeukuRifal/Final-Kelompok-6.git
    ```
 2. Masuk ke directory Projek
    ```bash
