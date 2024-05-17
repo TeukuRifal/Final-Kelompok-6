@@ -44,7 +44,9 @@ Dataset ini terdiri dari beberapa atribut berikut:
 Instruksi penerapan adalah petunjuk atau panduan yang memberikan detail langkah demi langkah tentang bagaimana suatu tugas, prosedur, atau kegiatan tertentu harus dilakukan.
 Adapun instruksi penerapan pada projek ini adalah sebagai berikut:
 1. Pengumpulan Data
-2. Modelling
+   
+3. Modelling
+   
 Persiapan Data
 - Mount Google Drive
 - Tentukan Path Dataset
@@ -61,6 +63,28 @@ Evaluasi dan Visualisasi
 - Visualisasi Loss dan Akurasi
 Penyimpanan Model
 - Simpan Model Terlatih
-3. Pembuatan Web
-4. Deployment
+  
+3. Pembuatan Web dan Deployment
+  
+Langkah-langkah pembuatan Web dan Deploy
 
+1. Membuat Virtual Environment
+   - Menggunakan perintah python -m venv venv untuk membuat virtual environment.
+   - Virtual environment kemudian diaktifkan dengan perintah source venv/bin/activate (untuk sistem operasi berbasis Linux).
+
+2. Instalasi Flask
+   - Flask diinstal ke dalam virtual environment menggunakan perintah pip install Flask.
+
+3. Struktur Proyek
+   - Membuat sebuah file app.py sebagai file utama aplikasi Flask.
+   - Untuk menyimpan file-file HTML yang diperlukan oleh aplikasi, kami membuat folder bernama templates.
+
+4. Menjalankan Aplikasi
+   - Aplikasi Flask dijalankan dengan menggunakan perintah flask run.
+
+5. Integrasi dengan HTML
+   - File-file HTML yang dibuat ditempatkan dalam folder templates.
+   - Aplikasi Flask merender halaman HTML tersebut ke browser menggunakan fungsi render_template.
+
+6. Hasil Deploy
+   - Setelah menjalankan flask run, halaman web berhasil ditampilkan di browser, menunjukkan konten dari file HTML yang sudah dibuat.
