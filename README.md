@@ -38,8 +38,11 @@ Dataset ini terdiri dari beberapa atribut berikut:
 4. Pembagian Kelas:
 - Kirmizi: 1122 gambar
 - Siirt: 1026 gambar
+  
 
-# Instruksi Penerapan
+
+
+# Instruksi Penerapan   
 
 Instruksi penerapan adalah petunjuk atau panduan yang memberikan detail langkah demi langkah tentang bagaimana suatu tugas, prosedur, atau kegiatan tertentu harus dilakukan.
 Adapun instruksi penerapan pada projek ini adalah sebagai berikut:
@@ -88,3 +91,31 @@ Langkah-langkah pembuatan Web dan Deploy
 
 6. Hasil Deploy
    - Setelah menjalankan flask run, halaman web berhasil ditampilkan di browser, menunjukkan konten dari file HTML yang sudah dibuat.
+
+# Instalasi
+
+1. Clone Repository
+   ```bash
+   https://github.com/TeukuRifal/Final-Kelompok-6.git
+   ```
+2. Masuk ke directory Projek
+   ```bash
+    cd Final-Kelompok-6
+   ```
+3. Buat dan Aktifkan virtualenv
+    ```bash
+    virtualenv projek
+    projek\Scripts\activate
+    ```
+4. Download Model [Model Pistachio](https://drive.google.com/file/d/1J8CQChPbdxP7MeFVx5R-osSJwvn6L1rv/view?usp=drive_link)
+
+5. Pindahkan ke dalam folder Final-Kelompok-6
+    
+7. Install semua dependencies dari requirements.txt
+   ```bash
+    pip install -r requirements.txt
+    ```
+5. jalankan kodenya
+   ```bash
+   python app.py
+   ```
